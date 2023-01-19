@@ -1,0 +1,10 @@
+- id: coverage-pytest
+  name: coverage-pytest
+  description: ""
+  entry: coverage run -m pytest
+  language: python
+  minimum_pre_commit_version: 2.9.2
+  pass_filenames: false
+  always_run: true
+  additional_dependencies:
+    - pytest==7.1.3
